@@ -1720,7 +1720,7 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/devtools-api@^6.0.0-beta.18":
+"@vue/devtools-api@^6.0.0-beta.18", "@vue/devtools-api@^6.0.0-beta.20.1":
   version "6.0.0-beta.20.1"
   resolved "https://registry.npmmirror.com/@vue/devtools-api/download/@vue/devtools-api-6.0.0-beta.20.1.tgz?cache=0&sync_timestamp=1636563607970&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fdevtools-api%2Fdownload%2F%40vue%2Fdevtools-api-6.0.0-beta.20.1.tgz#5b499647e929c35baf2a66a399578f9aa4601142"
   integrity sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q==
@@ -7531,6 +7531,14 @@ pify@^4.0.1:
   resolved "https://registry.npm.taobao.org/pify/download/pify-4.0.1.tgz?cache=0&sync_timestamp=1581725110840&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpify%2Fdownload%2Fpify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha1-SyzSXFDVmHNcUCkiJP2MbfQeMjE=
 
+pinia@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.4.tgz#06f6a03f6f19e6ec8b63cc06459011d96948e53d"
+  integrity sha512-nAc2f9HmOcBbWRlnGDuBGedM1G6uFAR10FnJWP1/dgm1I2tM5jbgKL/3IgynP4mBnPCy//ky7g0WpCZl5Mmxsg==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.20.1"
+    vue-demi "*"
+
 pinkie-promise@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/pinkie-promise/download/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
@@ -9848,6 +9856,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-demi@*:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
+  integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
