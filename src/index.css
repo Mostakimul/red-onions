@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mk-nav {
+  @apply bg-green-700 hover:bg-green-600 text-gray-50 transition duration-300 py-1 px-3 rounded-full font-semibold shadow;
+}

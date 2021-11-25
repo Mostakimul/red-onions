@@ -1,13 +1,18 @@
 <template>
-  <div>
-    <h2>Hello Vue</h2>
-  </div>
+  <TheHeader />
 </template>
 
 <script>
+import TheHeader from '@/components/TheHeader.vue';
+
 export default {
-  setup() {
-    return {};
+  components: {
+    TheHeader
   },
-};
+  setup() {
+    const hello = "Hi"
+
+    return { hello }
+  }
+}
 </script>
