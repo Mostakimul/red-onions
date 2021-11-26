@@ -1,22 +1,24 @@
 <template>
   <section class="container py-10">
     <h2 class="text-center text-3xl font-semibold pb-5">Our menu</h2>
+    {{ counter }}
     <!-- menu selection -->
     <div class="flex justify-center items-center space-x-3">
-      <p
+      <button
+        type="button"
         class="bg-green-600 hover:bg-green-700 py-1 px-5 rounded-full shadow font-medium text-gray-50"
-      >Breakfast</p>
-      <p
+      >Breakfast</button>
+      <button
         class="bg-green-700 hover:bg-green-600 py-1 px-5 rounded-full shadow font-medium text-gray-50"
-      >Lunch</p>
-      <p
+      >Lunch</button>
+      <button
         class="bg-green-600 hover:bg-green-700 py-1 px-5 rounded-full shadow font-medium text-gray-50"
-      >Dinner</p>
+      >Dinner</button>
     </div>
     <!-- Food render -->
     <section class="grid grid-cols-3 gap-3 py-5">
-      <div v-for="item in breakMenus" :key="item.id">
-        <food-item :item="item"></food-item>
+      <div v-for="menu in homeMeal" :key="menu.id">
+        <food-item :menu="menu"></food-item>
       </div>
     </section>
   </section>
@@ -30,10 +32,11 @@ import FoodItem from "./FoodItem.vue"
 export default {
   components: { FoodItem },
   setup() {
-    const menues = useMenu()
-    // console.log(breakMenus);
-    const { breakMenus } = storeToRefs(menues)
-    return { breakMenus };
+    const allMenus = useMenu()
+    const { menus } = storeToRefs(allMenus)
+
+
+    return { menus, homeMeal: allMenus.homeMeal };
   },
 
 }

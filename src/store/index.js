@@ -9,7 +9,7 @@ import breakfast6 from '../assets/Breakfast/breakfast6.png';
 export const useMenu = defineStore('menu', {
   state: () => {
     return {
-      breakMenus: [
+      menus: [
         {
           id: 1,
           name: 'Healthy Meal Plan',
@@ -64,7 +64,36 @@ export const useMenu = defineStore('menu', {
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!',
           image: breakfast6,
         },
+        {
+          id: 7,
+          name: 'Healthy Meal Plan',
+          type: 'dinner',
+          price: 4.99,
+          details:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!',
+          image: breakfast6,
+        },
+        {
+          id: 8,
+          name: 'Healthy Meal Plan',
+          type: 'lunch',
+          price: 4.99,
+          details:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!',
+          image: breakfast6,
+        },
       ],
+      counter: 0,
     };
+  },
+  getters: {
+    // get only 6 meal
+    homeMeal: (state) => {
+      let filterMenu = [];
+      for (let i = 0; i < 6; i++) {
+        filterMenu.push(state.menus[i]);
+      }
+      return filterMenu;
+    },
   },
 });
