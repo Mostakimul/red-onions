@@ -1,7 +1,6 @@
 <template>
   <section class="container py-10">
     <h2 class="text-center text-3xl font-semibold pb-5">Our menu</h2>
-    {{ counter }}
     <!-- menu selection -->
     <div class="flex justify-center items-center space-x-3">
       <button
