@@ -9,11 +9,11 @@
       <div v-for="choice in choices" :key="choice.id">
         <img :src="choice.image" :alt="choice.id" />
         <h2 class="py-2 font-semibold text-xl">
-          <img :src="choice.icon" alt="icon" class="inline-block" />
+          <img :src="choice.icon" alt="icon" class="inline-block w-8" />
           {{ choice.title }}
         </h2>
         <p class="pl-5">{{ choice.details }}</p>
-        <button class="text-green-600 pl-5 font-semibold">See more</button>
+        <button class="text-green-600 pl-5 font-semibold">See more &rarr;</button>
       </div>
     </section>
   </div>
