@@ -3,7 +3,9 @@
     <div class="flex justify-between items-center">
       <!-- logo -->
       <div>
-        <img src="./assets/logo2.png" alt="logo" class="w-1/4" />
+        <router-link to="/">
+          <img src="./assets/logo2.png" alt="logo" class="w-1/4" />
+        </router-link>
       </div>
       <div class="space-x-3">
         <!-- routes -->
