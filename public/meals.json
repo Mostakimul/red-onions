@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Healthy Meal Plan",
+    "type": "breakfast",
+    "price": 24.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "../src/assets/Breakfast/breakfast1.png"
+  },
+  {
+    "id": 2,
+    "name": "Healthy Meal Plan",
+    "type": "breakfast",
+    "price": 14.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Breakfast/breakfast2.png"
+  },
+  {
+    "id": 3,
+    "name": "Healthy Meal Plan",
+    "type": "breakfast",
+    "price": 5.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Breakfast/breakfast3.png"
+  },
+  {
+    "id": 4,
+    "name": "Healthy Meal Plan",
+    "type": "breakfast",
+    "price": 7.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Breakfast/breakfast4.png"
+  },
+  {
+    "id": 5,
+    "name": "Healthy Meal Plan",
+    "type": "breakfast",
+    "price": 9.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Breakfast/breakfast5.png"
+  },
+  {
+    "id": 6,
+    "name": "Healthy Meal Plan",
+    "type": "breakfast",
+    "price": 4.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Breakfast/breakfast6.png"
+  },
+  {
+    "id": 7,
+    "name": "Healthy Meal Plan",
+    "type": "dinner",
+    "price": 4.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Dinner/dinner1.png"
+  },
+  {
+    "id": 8,
+    "name": "Healthy Meal Plan",
+    "type": "dinner",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Dinner/dinner2.png"
+  },
+  {
+    "id": 9,
+    "name": "Healthy Meal Plan",
+    "type": "dinner",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Dinner/dinner3.png"
+  },
+  {
+    "id": 10,
+    "name": "Healthy Meal Plan",
+    "type": "dinner",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Dinner/dinner4.png"
+  },
+  {
+    "id": 11,
+    "name": "Healthy Meal Plan",
+    "type": "dinner",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Dinner/dinner5.png"
+  },
+  {
+    "id": 12,
+    "name": "Healthy Meal Plan",
+    "type": "dinner",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/Dinner/dinner6.png"
+  },
+  {
+    "id": 13,
+    "name": "Healthy Meal Plan",
+    "type": "lunch",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/lunch/lunch1.png"
+  },
+  {
+    "id": 14,
+    "name": "Healthy Meal Plan",
+    "type": "lunch",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/lunch/lunch2.png"
+  },
+  {
+    "id": 15,
+    "name": "Healthy Meal Plan",
+    "type": "lunch",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/lunch/lunch3.png"
+  },
+  {
+    "id": 16,
+    "name": "Healthy Meal Plan",
+    "type": "lunch",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/lunch/lunch4.png"
+  },
+  {
+    "id": 17,
+    "name": "Healthy Meal Plan",
+    "type": "lunch",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/lunch/lunch5.png"
+  },
+  {
+    "id": 18,
+    "name": "Healthy Meal Plan",
+    "type": "lunch",
+    "price": 8.99,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga labore repellendus earum eveniet impedit at assumenda sunt saepe nobis!",
+    "image": "/src/assets/lunch/lunch6.png"
+  }
+]
