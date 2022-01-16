@@ -2,7 +2,6 @@
   <TheHeader />
   <FoodMenu />
   <ChooseUs />
-  <TheFooter />
 </template>
 
 <script>
@@ -16,9 +15,8 @@ export default {
     TheHeader,
     FoodMenu,
     ChooseUs,
-    TheFooter
+    TheFooter,
   },
-  setup() {
-  }
-}
+  setup() {},
+};
 </script>
